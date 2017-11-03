@@ -17,7 +17,7 @@ Gem::Specification.new do |s|
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
 
   s.add_dependency "rails", ">= 4.0.0"
-  s.add_dependency "prometheus-client", "~> 0.7.0"
+  s.add_dependency "prometheus-client-mmap", "~> 0.7.0.beta"
 
   s.add_development_dependency "sqlite3"
   s.add_development_dependency "rspec-rails"
